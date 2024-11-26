@@ -8,7 +8,7 @@ project(HelloProject CXX)  # Use C++ language
 include_directories("/home/deepak/Documents/c/mysql/include/jdbc")  # Adjust path as needed
 
 # Add the source files for the project (your C++ files)
-set(SOURCE_FILES main.cpp database.cpp)  # Include all your C++ source files
+set(SOURCE_FILES main.cpp database.cpp filehandler.cpp)  # Include all your C++ source files
 
 # Add the directory containing the MySQL library
 link_directories("/home/deepak/Documents/c/mysql/lib64")  # Adjust path if needed
